@@ -26,7 +26,7 @@ export class ChatService {
       }
 
       this.usuario.nombre = user.displayName;
-      this.usuario.uid = user.uid
+      this.usuario.uid = user.uid;
 
     });
   }
